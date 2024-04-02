@@ -47,7 +47,7 @@ return (
                     }
                 </ul>
                 <div className="flex flex-col sm:flex-row sm:items-center gap-4  lg:min-w-max mt-10 lg:mt-0">
-                    <a href="#" className="px-6 py-3 duration-300 ease-linear flex justify-center w-full sm:w-auto border border-gray-100 text-gray-100 hover:text-white hover:bg-blue-700 rounded-xl">
+                    <a href="#" className="px-6 py-3 duration-300 ease-linear flex justify-center w-full sm:w-auto border border-gray-100 text-gray-100 hover:text-white hover:bg-orange-500 rounded-xl">
                         Get It touch
                     </a>
                 </div>

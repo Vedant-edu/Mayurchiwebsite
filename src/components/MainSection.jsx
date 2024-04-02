@@ -3,11 +3,12 @@ import { Text } from './Text'
 import { Heading } from './Heading'
 import { Button } from './Button'
 import { Img } from './Img'
+import AboutHim from './AboutHim'
 
 export default function MainSection() {
   return (
     <div>
-      <main className="w-full pt-32">
+      <main className="w-full py-32">
     <section className="relative pt-10 xl:pt-14">
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col lg:flex-row gap-8 lg:gap-10 xl:gap-12">
         <div className="mx-auto text-center lg:text-left flex flex-col max-w-3xl justify-center lg:justify-start lg:py-8 flex-1 lg:w-1/2 lg:max-w-none">
@@ -20,7 +21,7 @@ Clean Design
           Designing User Interfaces & creating User Experiences that provides Solution
           </p>
           <div className="mt-10 flex gap-4 justify-center lg:justify-start flex-wrap">
-            <a href="#" className="relative px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition active:before:bg-orange-500 text-white hover:before:bg-indigo-800 before:bg-orange-500/80 hover:before:scale-105">
+            <a href="#" className="relative px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition  text-white hover:bg-orange-500 border rounded-2xl hover:text-black hover:before:scale-105">
               <span className="relative">
                 Get Started
               </span>
@@ -39,7 +40,7 @@ Clean Design
   
   
   
-<nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col sm:flex-row gap-x-5 pt-56 justify-start items-center">
+<nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
     <div className="flex items-center min-w-max relative">
         <a href="#" className="font-semibold flex items-center gap-x-2">
             <div className='inline'>
@@ -51,11 +52,14 @@ Clean Design
         </a>
     </div>
 
-    <div className="flex flex-col sm:flex-row sm:items-center gap-4  lg:min-w-max mt-10 lg:mt-0">
-        <a href="#" className="px-6 py-3 duration-300 ease-linear flex justify-center w-full sm:w-auto border border-gray-100 text-gray-100 hover:text-white hover:bg-blue-700 rounded-xl">
-            Get In Touch
-        </a>
-    </div>
+    <div className="mt-10 flex gap-4 justify-center lg:justify-start flex-wrap">
+            <a href="#" className="relative px-6 py-3 before:absolute before:inset-0 border rounded-2xl before:rounded-lg before:transition  text-white hover:before:bg-indigo-800 hover:before:scale-105">
+              <span className="relative">
+                Explore More
+              </span>
+            </a>
+            
+          </div>
 </nav>
 
 
@@ -71,14 +75,14 @@ Clean Design
             <div className="h-[576px] w-full md:h-auto relative">
             <Img src="images/img_bitmap_576x448.png" alt="bitmap_one" className="h-[576px] w-full object-cover" />
                 <div className="flex flex-col items-start justify-end w-full h-max gap-[22px] left-0 bottom-0 right-0 top-0 p-[46px] m-auto md:p-5 bg-gray-900_01 absolute">
-                  <div className="flex justify-center w-[45%] md:w-full mt-[369px] md:p-5 bg-white-A700 rounded-[19px]">
-                    <p as="p" className="self-start w-[76%] !text-gray-900 leading-8">
+                  <div className="flex  w-[45%] md:w-full mt-[369px] md:p-5 bg-white-A700 rounded-[19px]">
+                    <p as="p" className="self-start  !text-gray-900 leading-8 bg-slate-50 w-30 py-3 px-6 rounded-full">
                       Design Project 1
                     </p>
                   </div>
-                  <h3 as="h4" className="mb-3">
-                    SE Site
-                  </h3>
+                  <h4 as="h4" className="mb-1 pl-5 text-4xl font-extrabold text-slate-50">
+                    SDC LLP Site
+                  </h4>
                 </div>
               </div>
             </div>
@@ -87,14 +91,14 @@ Clean Design
             <div className="h-[576px] w-full md:h-auto relative">
                 <Img src="images/img_bitmap_1.png" alt="bitmap_one" className="h-[576px] w-full object-cover" />
                 <div className="flex flex-col items-start justify-end w-full h-max gap-[22px] left-0 bottom-0 right-0 top-0 p-[46px] m-auto md:p-5 bg-gray-900_01 absolute">
-                  <div className="flex justify-center w-[45%] md:w-full mt-[369px] md:p-5 bg-white-A700 rounded-[19px]">
-                    <p as="p" className="self-start w-[76%] !text-gray-900 leading-8">
-                      Design Project 1
+                  <div className="flex   md:w-full mt-[369px] md:p-5 bg-white-A700 rounded-[19px]">
+                  <p as="p" className="self-start  !text-gray-900 leading-8 bg-slate-50 w-30 py-3 px-6 rounded-full">
+                      Design Project 2
                     </p>
                   </div>
-                  <h3 as="h4" className="mb-3">
+                  <h4 as="h4" className="mb-1 pl-5 text-4xl font-extrabold text-slate-50">
                     SE Site
-                  </h3>
+                  </h4>
                 </div>
               </div>
             </div>
@@ -104,6 +108,7 @@ Clean Design
         </div>
     </div>
 </section>
+
     </div>
   
   
